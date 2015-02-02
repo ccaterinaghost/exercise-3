@@ -84,105 +84,177 @@ html {
 /* line 21, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 body {
   font-family: sans-serif;
+  background-color: #E74C3C;
   margin: 0;
   padding: 0; }
-  /* line 26, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  /* line 27, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
-/* line 31, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* line 32, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+p {
+  padding: 0.5em 20em;
+  text-align: center;
+  color: #96281B; }
+
+/* line 38, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+.img {
+  width: 100%;
+  padding: 0 20em; }
+
+/* line 43, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+h1 {
+  color: #fff;
+  text-align: center; }
+
+/* line 48, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 header {
   padding: 0 1em;
   position: relative; }
 
-/* line 36, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* line 53, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 .toggle-btn {
   position: absolute;
   right: 1em;
   top: 0; }
 
-/* line 42, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* line 59, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 44, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  /* line 61, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 46, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+    /* line 63, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
     .navigation ul li:first-child a {
-      border-top: 1px solid #ccc; }
-    /* line 49, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+      border-top: 2px solid #fff; }
+    /* line 66, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
       text-align: center;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 2px solid #fff;
       text-decoration: none; }
 
-/* line 60, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* line 76, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+ul {
+  background-color: #fff; }
+
+/* line 82, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+a:hover, a:visited, a:active {
+  color: #96281B; }
+
+/* line 87, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
-  color: #222;
+  color: #96281B;
   height: 40px;
   width: 40px; }
-  /* line 64, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  /* line 91, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 67, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  /* line 94, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
-    border: 2px solid #222;
+    border: 2px solid #96281B;
     border-radius: 5px;
     padding: 0.5em 0.4em 0.4em; }
 
-/* line 74, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* line 101, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 .close-btn {
-  margin: 1em; }
+  margin: 0em; }
 
-@media only screen and (max-width: 60em) {
-  /* line 79, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-  .site-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    z-index: 100; }
-    /* line 84, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-    .site-wrapper .sliding-canvas {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      -webkit-transform: translateX(0);
-          -ms-transform: translateX(0);
-              transform: translateX(0);
-      transition: all 300ms ease-in-out; }
-    /* line 91, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-    .site-wrapper[data-state="slide-open"] .sliding-canvas {
-      -webkit-transform: translateX(-100%);
-          -ms-transform: translateX(-100%);
-              transform: translateX(-100%); }
-    /* line 95, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-    .site-wrapper[data-state="slide-open"] {
-      overflow: visible; }
-
-  /* line 100, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-  .slide-menu {
-    position: absolute;
+/* line 106, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+.site-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100; }
+  /* line 111, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
-    top: 0;
-    bottom: 0;
+    position: relative;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+    transition: all 300ms ease-in-out; }
+  /* line 118, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .site-wrapper[data-state="slide-open"] .sliding-canvas {
+    -webkit-transform: translateX(-30%);
+        -ms-transform: translateX(-30%);
+            transform: translateX(-30%); }
+  /* line 122, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .site-wrapper[data-state="slide-open"] {
+    overflow: visible; }
+    /* line 124, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+    .site-wrapper[data-state="slide-open"] .toggle-btn {
+      display: none; }
+
+/* line 130, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+.slide-menu {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: -30%;
+  min-height: 750px;
+  border-left: 2spx solid #fff; }
+
+@media only screen and (max-width: 70em) {
+  /* line 142, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  p {
+    padding: 0.5em 5em;
+    text-align: center;
+    color: #96281B; }
+
+  /* line 148, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .img {
+    width: 100%;
+    padding: 0 5em; }
+ }
+
+@media only screen and (max-width: 40em) {
+  /* line 156, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  p {
+    padding: 0.5em 1em;
+    text-align: center;
+    color: #96281B; }
+
+  /* line 162, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .img {
+    width: 100%;
+    padding: 0 1em; }
+ }
+
+@media only screen and (max-width: 30em) {
+  /* line 173, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .site-wrapper[data-state="slide-open"] .sliding-canvas {
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%); }
+
+  /* line 177, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .slide-menu {
+    width: 100%;
     right: -100%;
-    min-height: 600px; }
+    border: none; }
+
+  /* line 183, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+  .close-btn {
+    margin: 1em; }
  }
 
-@media only screen and (min-width: 60em) {
-  /* line 113, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
-  .toggle-btn, .close-btn {
-    display: none; }
- }
-
-/* line 119, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
+/* Not being used
+@media only screen and (min-width: 90em){
+  .toggle-btn,
+  .close-btn{
+    display: none;
+  }
+} */
+/* line 197, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-3/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
