@@ -26,3 +26,7 @@
   white-space: normal;
   overflow: visible;
 }
+
+@mixin transition ($length, $type) {
+  transition: all $length, $type;
+}
